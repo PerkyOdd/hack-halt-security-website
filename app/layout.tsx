@@ -1,0 +1,1 @@
+import type { Metadata } from "next"; import "./globals.css"; export const metadata: Metadata = { title: "Hack Halt Security | SEE. THINK. PROTECT.", description: "Building thoughtful digital solutions for safer, more connected communities." }; export default function RootLayout({children}:{children:React.ReactNode}) { return <html lang="en"><body>{children}</body></html>; }
